@@ -1,5 +1,5 @@
 
-console.log("Witam developerów!");
+console.log("Witam developerów! The project has been updated");
 let buttonBackground = document.querySelector(".buttonBackground");
 let themeColor = document.querySelector(".darkBackground");
 let body = document.querySelector(".body");
