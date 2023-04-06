@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link href="formularz.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+
+
+    <title>JS LICZBY</title>
+</head>
+
+<body class="body">
+    <p>
+        Policz Swoje BMI!
+    </p>
+    <form class="js-form">
+        <fieldset>
+            <legend>Twoje Dane</legend>
+            <p>
+                <label>
+                    Twój wzrost: <input class="js-height" required type="number" min="1" step="any">
+                </label>
+            </p>
+            <p>
+                <label>
+                    Twoja waga: <input class="js-weight" required type="number" min="1" step="any">
+                </label>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Pole typu radio</legend>
+            <ul>
+                <li>
+                    <label>
+                        Opcja 1
+                        <input type="radio" name="radio" value="opcja-1" name="radio" class="js-radio-1">
+                    </label>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <label>
+                        Opcja 2
+                        <input type="radio" name="radio" value="opcja-2" name="radio" class="js-radio-2">
+                    </label>
+                </li>
+            </ul>
+        </fieldset>
+        <p>
+            <button>Policz Swoje BMI!</button>
+        </p>
+    </form>
+    <p>Twoje BMI wynosi: <strong class="js-bmi"></strong></p>
+</body>
+
+</html>

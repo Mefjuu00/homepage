@@ -1,0 +1,48 @@
+.everything {
+    background-color: rgb(38, 129, 42);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+
+}
+
+
+.naglowek {
+    color: rgb(19, 1, 39)
+}
+
+.PierwszyAkapit {
+    color: rgb(0, 0, 0);
+    border: 18px;;
+    border-color: black;
+
+
+}
+
+.photo {
+    border: 10px solid rgba(14, 13, 13, 0.76);
+    border-image-width: 10em;
+    width: 250px;
+}
+
+.opis {
+    color: rgb(241, 241, 241);
+    
+
+}
+
+.przycisk {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(245, 10, 49);
+    background-color: rgb(58, 58, 58);
+    border: 10px solid rgba(14, 13, 13, 0.76);
+    border-image-width: 10em;
+    width: 250px;
+}
+}
+
+.foot {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(0, 0, 0, 0.774);
+    color:rgb(255, 255, 255)
+
+}

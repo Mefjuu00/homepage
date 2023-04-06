@@ -1,0 +1,158 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+::after::before {
+    box-sizing: inherit;
+}
+
+.body {
+    font-family: 'Lato', sans-serif;
+    max-width: 1100px;
+    margin: left;
+    text-align: center;
+    background-color: rgba(252, 252, 219, 0.822);
+    line-height: 1.5;
+    padding: 15px 20%;
+
+}
+
+.header {
+    font-weight: 600;
+    background-color: rgba(231, 55, 55, 0.836);
+    font-style: oblique;
+    box-shadow: 5px 5px 11px -4px #1b1b1a;
+}
+
+.secondHeader {
+    background-color: rgba(12, 45, 231, 0.815);
+    font-style: oblique;
+    box-shadow: 5px 5px 11px -4px #1b1b1a;
+}
+
+
+
+.img {
+    max-width: 500px;
+    max-height: 250px;
+    box-shadow: 5px 5px 11px -4px #1b1b1a;
+
+}
+
+.table {
+    font-family: 'Rowdies', cursive;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    box-shadow: 5px 5px 11px -4px #1b1b1a;
+    margin-left: auto;
+}
+
+.tableCell {
+    border: 1px solid rgb(159, 178, 196);
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+    margin: 10px auto;
+}
+
+.caption {
+    caption-side: top;
+    text-align: left;
+    margin-bottom: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-display: unset;
+    background-color: crimson;
+}
+
+.tableHeader {
+    background-color: crimson;
+    color: rgb(19, 7, 7);
+    font-style: initial
+}
+
+.tableRow:nth-child(even) {
+    background: #eee
+}
+
+.tableRow:hover {
+    background: rgba(34, 126, 247, 0.849);
+}
+
+
+.mySucces {
+    font-size: 70%;
+    font-weight: lighter;
+    font-size: small;
+    color: rgb(0, 0, 0);
+    box-shadow: 5px 5px 11px -4px;
+}
+
+.mySuccesHeader {
+    box-shadow: 5px 5px 11px -4px #1b1b1a;
+    background-color: rgba(34, 126, 247, 0.849);
+}
+
+.naviList {
+    list-style-type: none;
+    margin: 10px 0;
+    padding: 2%;
+    overflow: hidden;
+    background-color: rgba(235, 225, 225, 0.671);
+    box-shadow: 0 0 15px 0 black;
+
+
+}
+
+.link {
+    margin: 3px;
+}
+
+.link a {
+    float: left;
+    padding-left: 5%;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+
+}
+
+.firstParagraph {
+    font-size: small;
+    color: rgb(0, 0, 0);
+    box-shadow: 5px 5px 11px -4px;
+}
+
+.footer {
+    font-style: oblique;
+    margin-top: 5%;
+}
+
+.buttonBackground {
+    border: none;
+    color: black;
+    text-decoration: none;
+    float: right;
+    background-color: rgb(0, 0, 0);
+    max-width: fit-content;
+}
+
+.buttonBackground:hover {
+    cursor: pointer
+}
+
+.darkBackground {
+    background-color: rgb(95, 95, 95);
+}
+
+.linkKohorta {
+    color: crimson;
+    text-decoration: solid;
+    font-size: 120%;
+}
+
+.linkFighters {
+    text-decoration: underline;
+    color: black;
+}

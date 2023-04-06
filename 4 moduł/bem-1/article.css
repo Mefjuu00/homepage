@@ -1,0 +1,27 @@
+.article {
+    max-width: 600px;
+    padding: 20px;
+    box-shadow: 2px 2px 8px #ccc;
+    margin: 20px auto;
+}
+
+.article--dark {
+    background-color: #222;
+}
+
+.article__header {
+    color: aquamarine;
+}
+
+.article__paragraph {
+    color: #777
+}
+
+.article--dark .article__paragraph {
+    color: #999
+}
+
+
+.article__paragraph--highlighted {
+    color: rgb(56, 143, 109)
+}

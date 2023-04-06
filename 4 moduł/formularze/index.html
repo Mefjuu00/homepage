@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KfRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdfgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link href="container.css" rel="stylesheet">
+    <link href="form.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <title>formularzyk</title>
+</head>
+
+<body>
+    <div class="container">
+        <form class="form">
+            <fieldset class="form__fieldset">
+                <legend class="form__legend">Dane osobowe</legend>
+                <p>
+                    <label for="name">
+                        <span class="form__labelText">
+                            Imię*:
+                        </span>
+                        <input class="form__field" name="firstName" required>
+                    </label>
+                </p>
+                <p>
+                    <span class="form__labelText">
+                        <label>
+                            Nazwisko:
+                    </span>
+                    <input class="form__field" name="LastName">
+                    </label>
+                </p>
+                <p>
+                    <span class="form__labelText">
+                        <label>
+                            Kilka słów o mnie:
+                    </span>
+                    <textarea class="form__field form__field--textarea" name="description"></textarea>
+                    </label>
+                </p>
+                <p>
+                    <label for="name">
+                        <span class="form__labelText">
+                            Kolor oczu:
+                        </span>
+                        <input type="color" class="form__field" name="eyesColor">
+
+                    </label>
+                <p>
+                    <label for="name">
+                        <span class="form__labelText">
+                            Wzrost:
+                        </span>
+                        <input type="range" class="form__field" name="height" min="0" max="250">
+
+                    </label>
+                </p>
+                <p>
+                    </label>
+                <p>
+                    <label for="name">
+                        <span class="form__labelText">
+                            Twoje CV:
+                        </span>
+                        <input type="file" class="form__field" name="cv">
+
+                    </label>
+                </p>
+                <label>
+                    <span class="form__labelText">
+
+                        Element Wyłączony:
+                    </span>
+                    <input class="form__field" name="disabled" disabled value="tekst">
+                </label>
+                </p>
+                <p>
+                    <label>
+                        <span class="form__labelText">
+                            Element read-only:
+                        </span>
+                        <input class="form__field" name="readonly" readonly value="tekst">
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <span class="form__labelText">
+                            Opcja 1:
+                        </span>
+                        <input type="radio">
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <span class="form__labelText">
+                            Opcja 2:
+                        </span>
+                        <input type="radio">
+                    </label>
+                </p>
+                <p>
+                    <span class="form__labelText">
+                        <label>
+                            Data:
+                    </span>
+                    <input class="form__field js-date" name="date">
+                    </label>
+                </p>
+            </fieldset>
+            <p>
+                <button class="form__button">Wyślij</button>
+            </p>
+        </form>
+
+    </div>
+    <script>
+        flatpickr(".js-date", {
+            mode: "range"
+        });
+    </script>
+</body>
+
+</html>

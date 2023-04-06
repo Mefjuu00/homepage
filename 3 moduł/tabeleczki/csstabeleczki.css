@@ -1,0 +1,37 @@
+.table {
+    font-family: 'Rowdies', cursive;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+
+.tableCell {
+    border: 1px solid rgb(159, 178, 196);
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.caption {
+    caption-side: top;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.tableHeader {
+    background-color: crimson;
+    color: whitesmoke;
+    font-weight: normal
+}
+
+.tableRow:nth-child(even) {
+    background: #eee
+}
+
+.tableRow:hover {
+    background: #ddd;
+}
+
+.container {
+    overflow-x: auto;
+}

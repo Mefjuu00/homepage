@@ -1,0 +1,42 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+
+    box-sizing: inherit;
+
+}
+
+.navigation {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.navigation--dark {
+    background-color: #222;
+}
+
+.navigation__list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.navigation__item {
+    margin: 5px
+}
+
+.navigation__link {
+    text-decoration: none;
+
+}
+
+.navigation--dark .navigation__link {
+    color: rgb(58, 107, 150);
+}
+
+.navigation__link--buy.navigation__link--buy {
+    color: rgb(224, 88, 9);
+    border-color: rgb(209, 130, 130)
+}

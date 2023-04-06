@@ -1,0 +1,24 @@
+/* navi.css */
+.navigation {
+    list-style-type: none;
+    margin: 10px 0;
+    padding: 2%;
+    overflow: hidden;
+    background-color: rgba(235, 225, 225, 0.671);
+    box-shadow: 0 0 15px 0 black;
+
+
+}
+
+.navigation__list {
+    margin: 3px;
+}
+
+.navigation__list a {
+    float: left;
+    padding-left: 5%;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+
+}

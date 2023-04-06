@@ -1,0 +1,24 @@
+.body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Rowdies', cursive;
+
+}
+
+.listItem {
+    margin: 10px 0;
+    background-color: #eee;
+}
+
+.list {
+    padding: 20px;
+}
+.OrderList {
+    list-style-type: upper-roman
+}
+.unorderedList{ 
+    list-style:square inside;
+
+}
+.customMarker{
+    list-style-type:square
+}

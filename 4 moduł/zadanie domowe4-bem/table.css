@@ -1,0 +1,48 @@
+/* table.css */
+.table {
+    font-family: 'Rowdies', cursive;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    box-shadow: 5px 5px 11px -4px #1b1b1a;
+    margin-left: auto;
+}
+
+.table__Cell {
+    border: 1px solid rgb(159, 178, 196);
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+    margin: 10px auto;
+}
+
+.table__caption {
+    caption-side: top;
+    text-align: left;
+    margin-bottom: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-display: unset;
+    background-color: crimson;
+}
+
+.table__cell--header {
+    background-color: crimson;
+    color: rgb(19, 7, 7);
+    font-style: normal;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.table__row:nth-child(even) {
+    background: #eee
+}
+
+.table__row:hover {
+    background: rgba(34, 126, 247, 0.849);
+}
+
+
+.linkFighters {
+    text-decoration: underline;
+    color: black;
+}

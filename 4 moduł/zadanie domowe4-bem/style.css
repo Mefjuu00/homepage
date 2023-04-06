@@ -1,0 +1,59 @@
+/* style.css */
+html {
+    box-sizing: border-box;
+}
+
+
+*, ::after::before {
+    box-sizing: inherit;
+}
+
+
+.body {
+    font-family: 'Lato', sans-serif;
+    max-width: 1100px;
+    margin: left;
+    text-align: center;
+    background-color: rgba(252, 252, 219, 0.822);
+    line-height: 1.5;
+    padding: 15px 20%;
+
+}
+
+/* HEADER */
+.header {
+    font-weight: 600;
+    background-color: rgba(231, 55, 55, 0.836);
+    font-style: oblique;
+    box-shadow: 5px 5px 11px -4px #1b1b1a;
+}
+
+
+
+.header__button {
+    border: none;
+    color: black;
+    text-decoration: none;
+    float: right;
+    background-color: rgb(0, 0, 0);
+    max-width: fit-content;
+}
+
+
+.header__button:hover {
+    cursor: pointer
+}
+
+
+.darkBackground {
+    background-color: rgb(95, 95, 95);
+}
+
+
+.footer {
+    background-color: rgba(231, 55, 55, 0.836);
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+    width: 100%;
+}
