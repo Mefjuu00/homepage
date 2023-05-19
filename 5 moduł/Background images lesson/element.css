@@ -1,0 +1,14 @@
+.element {
+    color:white;
+    width: 300px;
+    height: 200px;
+    resize: both;
+    overflow: auto;
+    background-image: url("images/background.jpg");
+    background-size:cover;
+    background-position:center;
+    background-attachment:scroll ;
+    
+    
+     
+}
