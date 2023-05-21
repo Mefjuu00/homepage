@@ -1,0 +1,16 @@
+.flex {
+    border: 10px solid black;
+    width: 500px;
+    display: flex;
+    height: 300px;
+
+}
+
+.flex__item {
+    padding: 20px;
+    background: crimson;
+    color: white;
+    margin: 10px;
+    flex-basis: 200px;
+    flex: 0 0 100px;
+}

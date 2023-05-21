@@ -1,11 +1,24 @@
+{
+    const welcome = () => {
+        console.log("Witam developerów! Nie mam pojecia co sie dzieje ");
 
-console.log("Witam developerów! The project has ");
-let buttonBackground = document.querySelector(".buttonBackground");
-let themeColor = document.querySelector(".darkBackground");
-let body = document.querySelector(".body");
+    }
 
-buttonBackground.addEventListener("click", () => {
-    body.classList.toggle("darkBackground");
-    buttonBackground.innerText = body.classList.contains("darkBackground") ? "☀️" : "🌙";
+    const toggleBackground = () => {
+        const body = document.querySelector(".body");
+        const themeColor = document.querySelector(".darkBackground");
+        
+        body.classList.toggle("darkBackground");
+        buttonBackground.innerText = body.classList.contains("darkBackground") ? "☀️" : "🌙";
 
-});
+    }
+
+    const init = () => {
+        const buttonBackground = document.querySelector(".buttonBackground");
+        buttonBackground.addEventListener("click", toggleBackground);
+
+        welcome();
+    }
+
+    init();
+}
